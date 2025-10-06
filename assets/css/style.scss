@@ -53,17 +53,19 @@ aside a.button {
 
   }
 
-  
+
 /* ==== Original (static version) ==== */
+/*
 #home {
   background: #333;
   color: white;
   padding: 20px;
   text-align: center;
 }
+*/
 
 /* ==== Animated version ==== */
-// #home {
-//   background: linear-gradient(135deg, #ff6ec4, #7873f5);
-//   animation: bounce 1.5s infinite alternate;
-// }
+ #home {
+   background: linear-gradient(135deg, #ff6ec4, #7873f5);
+   animation: bounce 1.5s infinite alternate;
+ }
