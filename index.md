@@ -5,8 +5,6 @@ title: Home
 
 # Home
 
-Here’s a professional and welcoming **sample homepage draft** you can copy directly into your `index.md` for your demo site:
-
 ---
 
 ### **Welcome to My Digital Portfolio**
@@ -47,5 +45,3 @@ If you’d like to collaborate, chat about digital writing, or learn more about 
 🔗 [LinkedIn](#) • [ORCID](#) • [GitHub](https://github.com/yourusername)
 
 ---
-
-Would you like me to tailor this for a **specific persona** (e.g., a faculty profile, a graduate student portfolio, or a digital media practitioner)? I can adjust the tone and focus accordingly.
