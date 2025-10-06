@@ -53,3 +53,21 @@ aside a.button {
 
   }
 
+#home {
+  background: linear-gradient(135deg, #ff6ec4, #7873f5); /* bright gradient */
+  color: white; /* contrast text */
+  text-align: center;
+  padding: 40px;
+  border-radius: 20px;
+  border: 4px dashed yellow;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  font-size: 3em;
+  transform: rotate(-2deg); /* playful tilt */
+  animation: bounce 1.5s infinite alternate;
+}
+
+/* optional animated effect */
+@keyframes bounce {
+  from { transform: translateY(0) rotate(-2deg); }
+  to   { transform: translateY(-10px) rotate(2deg); }
+}
