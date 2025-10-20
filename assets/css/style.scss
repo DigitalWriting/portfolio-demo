@@ -4,15 +4,14 @@
 @import 'jekyll-theme-architect';
 
 
-h1, h2, h3, h4, h5, h6 {
-  /* If the markup actually has a slash character at the start, you might hide it */
-  /* For example, if your headings are like "/ My Heading" */
-}
-
-h1 > .heading-text::before,
-h2 > .heading-text::before,
-h3 > .heading-text::before {
-  content: none;
+/* Kill any pseudo-element that might add a slash before headings */
+.main-content h1::before,
+.main-content h2::before,
+.main-content h3::before,
+.main-content h4::before,
+.main-content h5::before,
+.main-content h6::before {
+  content: none !important;
 }
 
 header {
